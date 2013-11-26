@@ -17,26 +17,26 @@ class Properties {
   @SerializedName("mag")
   val magnitude: Double       = 0D
   val detail: String          = null
-  val felt: Integer           = 0
+  val felt: Int               = 0
   val cdi: Double             = 0D
   val mmi: Double             = 0D
   val alert: String           = null
   val status: String          = null
-  val tsunami: Integer        = null
-  val sig:Integer             = null
+  val tsunami: Int            = 0
+  val sig: Int                = 0
   val net: String             = null
   val code: String            = null
   val ids: String             = null
   val sources: String         = null
   val types: String           = null
-  val nst: Integer            = null
+  val nst: Int                = 0
   val dmin: Double            = 0D
   val rms: Double             = 0D
   val gap: Double             = 0D
   val magType: String         = null
   val `type`: String          = null
 
-  // add fileds that you want to see.
+  // add fields that you want to see.
   override def toString() = s"{ 'time':'${time}', 'place':'${place}', 'magnitude':'${magnitude}' }";
 
 }
